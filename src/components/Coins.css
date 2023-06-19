@@ -1,0 +1,105 @@
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #26272b;
+    box-shadow: 0 0 12px #18191b;
+    border-radius: 8px;
+    margin: 2rem 1rem;
+    padding: 0.7rem 1rem;
+    font-weight: 700;
+}
+
+.coin-name {
+    margin: -4rem;
+}
+
+#coin-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #26272b;
+    box-shadow: 0 0 12px #18191b;
+    border-radius: 8px;
+    margin: 2rem 1rem;
+    padding: 0.7rem 1rem;
+}
+
+#coin-row:hover {
+    transform: scale(1.04);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.image-symbol {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    height: 40px;
+    width: auto;
+    margin-right: 8px;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-top: 50px;
+    padding-left: 70px;
+  }
+  
+  .buttonContainer img {
+    height: 45px;
+    margin-left: 30px;
+    cursor: pointer;
+  }
+  
+  .buttonContainer img:hover {
+    transform: scale(1.1);
+    transition: all ease-in-out 0.2s;
+  }
+
+  .buttonContainer input {
+    padding: 5px 10px 5px 10px;
+    width: 280px;
+    height: 40px;
+    background-color: gold;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  ::placeholder {
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .buttonContainer input:focus {
+    outline: none;
+    border-bottom: solid #def2f1 2px;
+    transform: scale(1.05);
+  }
+  
+  .buttonContainer input:hover {
+    transform: scale(1.05);
+    transition: all ease-in-out 0.2s;
+  }
+
+@media (max-width: 720px) {
+    .hide-mobile {
+        display: none;
+    }
+}
